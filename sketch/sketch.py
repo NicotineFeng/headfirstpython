@@ -1,7 +1,7 @@
 import os
 
 if os.path.exists('sketch.txt'):
-    print('===The data file is exist!===')
+    print('====The data file is exist!====')
     data=open('sketch.txt')
 
     for each_line in data:
@@ -15,4 +15,4 @@ if os.path.exists('sketch.txt'):
             pass
     data.close()
 else:
-    print('===The data file is missing!===')
+    print('====The data file is missing!====')
